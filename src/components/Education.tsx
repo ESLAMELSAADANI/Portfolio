@@ -35,7 +35,22 @@ export default function Education() {
       ],
       gpa: 'Good Grade',
       color: 'from-purple-500 to-blue-500'
-    }
+    },
+    {
+    degree: 'Back End ASP.NET Developer – Intensive Code Camp',
+    school: 'Information Technology Institute (ITI)',
+    location: 'El Mansoura, Egypt · Hybrid',
+    period: 'Jul 2025 – Present',
+    description: 'Selected for the ITI Intensive Code Camp – ASP.NET Track, a 4-month hands-on training program focused on building scalable web applications using the Microsoft .NET technology stack.',
+    achievements: [
+      'Built real-world projects using ASP.NET Core MVC, Web API, and Entity Framework Core',
+      'Applied advanced concepts in C#, LINQ, SQL Server, and Design Patterns',
+      'Collaborated with mentors and team members in an Agile environment',
+      'Enhanced skills in clean code, debugging, and backend architecture'
+    ],
+    gpa: 'Ongoing',
+    color: 'from-teal-500 to-green-500'
+  }
   ];
 
   return (
