@@ -118,7 +118,7 @@ export default function Hero() {
               <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 rounded-full blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl ring-8 ring-white transform transition-all duration-500 group-hover:scale-105">
                 <img
-                  src="Me_LinkedInCover.png"
+                  src="/Me_LinkedInCover.png"
                   alt="Eslam Elsaadany"
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
                 />
