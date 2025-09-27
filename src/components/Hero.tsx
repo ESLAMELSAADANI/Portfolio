@@ -87,7 +87,7 @@ export default function Hero() {
                 <ArrowDown size={20} className="ml-2 group-hover:animate-bounce" />
               </a>
               <a
-                href="/Eslam Ashraf - Backend Developer (ASP.NET) - Egypt.pdf"
+                href="/Eslam Ashraf - Backend Developer (ASP.NET) - Egypt.pdf" target="_blank"
                 className="group inline-flex items-center justify-center px-8 py-4 border-2 border-purple-300 text-purple-700 font-medium rounded-full hover:bg-purple-50 hover:border-purple-400 transition-all duration-300 transform hover:scale-105"
               >
                 <Download size={20} className="mr-2 group-hover:animate-bounce" />
