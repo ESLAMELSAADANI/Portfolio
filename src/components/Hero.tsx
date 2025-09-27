@@ -70,10 +70,10 @@ export default function Hero() {
                   A dedicated <span className="text-blue-600 font-semibold">Backend Developer</span> currently focusing on 
                   <span className="text-cyan-600 font-semibold"> ASP.NET Core</span> for building robust and scalable applications. 
                   Strong foundation in <span className="text-purple-600 font-semibold">C++</span> with hands-on experience in 
-                  <span className="text-cyan-600 font-semibold">PHP and Laravel</span>. 
+                  <span className="text-cyan-600 font-semibold"> PHP and Laravel</span>. 
                   Skilled in designing clean APIs, optimizing performance, and applying modern development best practices. 
                   My graduation project, <span className="text-purple-600 font-semibold">LOCUS</span>, earned 
-                  <span className="text-yellow-600 font-bold">1st place</span> at Mansoura University competitions, 
+                  <span className="text-yellow-600 font-bold"> 1st place</span> at Mansoura University competitions, 
                   reflecting both technical expertise and teamwork.
                 </p>
             </div>
