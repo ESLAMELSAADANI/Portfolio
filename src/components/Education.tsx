@@ -143,18 +143,21 @@ export default function Education() {
                   </div>
 
                   {/* Highlight Box */}
-                  <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-xl border border-purple-100">
-                    <div className="flex items-center mb-3">
-                      <div className="w-3 h-3 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full mr-2"></div>
-                      <h5 className="font-semibold text-gray-900">Special Recognition</h5>
-                    </div>
-                    <p className="text-gray-700">
-                      <span className="font-semibold text-purple-600">LOCUS Graduation Project</span> achieved 
-                      <span className="font-bold text-yellow-600"> 1st place</span> in the Environment Hackathon 
-                      at Mansoura University, competing against <span className="font-semibold">30+ teams</span> 
-                      and demonstrating exceptional technical skills and innovation.
-                    </p>
-                  </div>
+                 {/* Highlight Box - only for Mansoura University */}
+{edu.school === 'Mansoura University' && (
+  <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-xl border border-purple-100">
+    <div className="flex items-center mb-3">
+      <div className="w-3 h-3 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full mr-2"></div>
+      <h5 className="font-semibold text-gray-900">Special Recognition</h5>
+    </div>
+    <p className="text-gray-700">
+      <span className="font-semibold text-purple-600">LOCUS Graduation Project</span> achieved 
+      <span className="font-bold text-yellow-600"> 1st place</span> in the Environment Hackathon 
+      at Mansoura University, competing against <span className="font-semibold">30+ teams</span> 
+      and demonstrating exceptional technical skills and innovation.
+    </p>
+  </div>
+)}
                 </div>
               </div>
             </div>
