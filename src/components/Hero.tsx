@@ -57,7 +57,7 @@ export default function Hero() {
                   <span className="inline-block animate-typewriter">
                     {titles[currentTitle]}
                   </span>
-                  <span className="animate-blink">|</span>
+                  <span className="animate-blink"></span>
                 </h2>
               </div>
 
