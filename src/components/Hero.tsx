@@ -48,7 +48,7 @@ export default function Hero() {
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                 <span className="text-gray-900">Hi, I'm </span>
                 <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent animate-gradient">
-                  Eslam
+                  Eslam Elsaadany
                 </span>
               </h1>
               
