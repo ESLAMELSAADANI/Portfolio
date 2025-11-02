@@ -24,7 +24,7 @@ export default function Projects() {
     {
       title: 'LOCUS - Environment App',
       description: 'Award-winning graduation project that secured 1st place in Environment Hackathon at Mansoura University. A comprehensive platform for environmental awareness with authentication, space events, and community features.',
-      image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: './public/Locus.jpg',
       technologies: ['PHP', 'Laravel', 'MySQL', 'Amazon S3', 'REST APIs'],
       githubUrl: 'https://github.com/ESLAMELSAADANI/LOCUS_APIs-U-',
       documentationUrl: 'https://documenter.getpostman.com/view/30818344/2sA2xh2YTj',
