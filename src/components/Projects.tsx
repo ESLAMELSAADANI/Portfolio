@@ -22,6 +22,16 @@ export default function Projects() {
 
   const projects = [
     {
+      title: 'Academix',
+      description: 'A comprehensive academic management system that streamlines university operations. It includes modules for Departments, Students, Courses, Users, and Roles with secure authentication, role-based access, and a modern responsive UI.',
+      image: 'https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['ASP.NET Core MVC', 'Entity Framework Core', 'SQL Server', 'Bootstrap', 'C#'],
+      liveUrl: 'https://academixx.runasp.net/',
+      githubUrl: 'https://github.com/ESLAMELSAADANI/Academix',
+      featured: true,
+      type: 'Web Application'
+    },
+    {
       title: 'LOCUS - Environment App',
       description: 'Award-winning graduation project that secured 1st place in Environment Hackathon at Mansoura University. A comprehensive platform for environmental awareness with authentication, space events, and community features.',
       image: '/Locus.jpg',
@@ -38,7 +48,7 @@ export default function Projects() {
       image: 'https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['C++', 'OOP', 'File Management', 'Data Structures'],
       githubUrl: 'https://github.com/ESLAMELSAADANI/BankSystem_CPP',
-      featured: true,
+      featured: false,
       type: 'Desktop Application'
     },
     {
