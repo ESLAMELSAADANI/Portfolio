@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Calendar, Trophy, Code, Database, Globe } from 'lucide-react';
+import { ExternalLink, Github, Calendar, Trophy, Code, Database, Globe, appwindowmac } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Projects() {
@@ -49,7 +49,7 @@ export default function Projects() {
       technologies: ['C++', 'OOP', 'File Management', 'Data Structures'],
       githubUrl: 'https://github.com/ESLAMELSAADANI/BankSystem_CPP',
       featured: false,
-      type: 'Desktop Application'
+      type: 'Console Application'
     },
     {
       title: 'ITI E-Commerce Project',
@@ -77,7 +77,7 @@ export default function Projects() {
       technologies: ['C#', 'OOP', 'SOLID Principles', 'Console App'],
       githubUrl: 'https://github.com/ESLAMELSAADANI',
       featured: false,
-      type: 'Educational Tool'
+      type: 'Console Application'
     },
     {
       title: 'B/D Front-End Project',
@@ -97,7 +97,7 @@ export default function Projects() {
   const getTypeIcon = (type: string) => {
     switch (type) {
       case 'Backend API': return Database;
-      case 'Desktop Application': return Code;
+      case 'Console Application': return appwindowmac;
       case 'Web Application': return Globe;
       default: return Code;
     }
