@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Calendar, Trophy, Code, Database, Globe, dock } from 'lucide-react';
+import { ExternalLink, Github, Calendar, Trophy, Code, Database, Globe, Dock } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Projects() {
@@ -97,7 +97,7 @@ export default function Projects() {
   const getTypeIcon = (type: string) => {
     switch (type) {
       case 'Backend API': return Database;
-      case 'Console Application': return dock;
+      case 'Console Application': return Dock;
       case 'Web Application': return Globe;
       default: return Code;
     }
