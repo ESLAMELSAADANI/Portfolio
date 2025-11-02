@@ -24,7 +24,7 @@ export default function Projects() {
     {
       title: 'Academix',
       description: 'A comprehensive academic management system that streamlines university operations. It includes modules for Departments, Students, Courses, Users, and Roles with secure authentication, role-based access, and a modern responsive UI.',
-      image: 'https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/Academix.png',
       technologies: ['ASP.NET Core MVC', 'Entity Framework Core', 'SQL Server', 'Bootstrap', 'C#'],
       liveUrl: 'https://academixx.runasp.net/',
       githubUrl: 'https://github.com/ESLAMELSAADANI/Academix',
