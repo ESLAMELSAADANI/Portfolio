@@ -73,7 +73,7 @@ export default function Header() {
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:eslamelsaadany@std.mans.edu.eg"
+              href="mailto:eslamelsaadany7@outlook.com"
               className="p-2 rounded-full bg-gradient-to-r from-gray-100 to-gray-200 text-gray-600 hover:from-purple-500 hover:to-pink-500 hover:text-white transition-all duration-300 transform hover:scale-110 hover:rotate-12"
             >
               <Mail size={18} />
@@ -124,7 +124,7 @@ export default function Header() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:eslamelsaadany@std.mans.edu.eg"
+                href="mailto:eslamelsaadany7@outlook.com"
                 className="p-3 rounded-full bg-gradient-to-r from-gray-100 to-gray-200 text-gray-600 hover:from-purple-500 hover:to-pink-500 hover:text-white transition-all duration-300 transform hover:scale-110"
               >
                 <Mail size={20} />
