@@ -48,7 +48,7 @@ export default function Footer() {
                 className="flex items-center text-gray-400 hover:text-purple-400 transition-colors duration-200"
               >
                 <Mail size={16} className="mr-2" />
-                eslamelsaadany@std.mans.edu.eg
+                eslamelsaadany7@outlook.com
               </a>
               <p className="flex items-center text-gray-400">
                 <span className="mr-2">📍</span>
