@@ -44,7 +44,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
             <div className="space-y-3">
               <a
-                href="mailto:eslamelsaadany@std.mans.edu.eg"
+                href="mailto:eslamelsaadany7@outlook.com"
                 className="flex items-center text-gray-400 hover:text-purple-400 transition-colors duration-200"
               >
                 <Mail size={16} className="mr-2" />
@@ -78,7 +78,7 @@ export default function Footer() {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:eslamelsaadany@std.mans.edu.eg"
+              href="mailto:eslamelsaadany7@outlook.com"
               className="text-gray-400 hover:text-purple-400 transition-all duration-300 transform hover:scale-110"
             >
               <Mail size={20} />
