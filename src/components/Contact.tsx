@@ -59,8 +59,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'eslamelsaadany@std.mans.edu.eg',
-      href: 'mailto:eslamelsaadany@std.mans.edu.eg',
+      value: 'eslamelsaadany7@outlook.com',
+      href: 'mailto:eslamelsaadany7@outlook.com',
       color: 'from-purple-500 to-blue-500'
     },
     {
