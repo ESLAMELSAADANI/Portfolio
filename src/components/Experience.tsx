@@ -41,7 +41,7 @@ export default function Experience() {
       title: 'ITI Back End ASP.NET Developer',
       company: 'Information Technology Institute (ITI)',
       location: 'Al-Mansoura, Egypt',
-      period: 'Jul 2025 – Present',
+      period: 'Jul 2025 – Dec 2025',
       type: 'Training',
       description: [
         'Intensive Code Camp trainee building real-world projects using ASP.NET Core MVC and Web API',
